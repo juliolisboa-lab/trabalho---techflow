@@ -1,0 +1,45 @@
+TechFlow
+
+- Objetivo do Projeto
+
+Desenvolver um sistema de gerenciamento de tarefas baseado em metodologias ágeis, permitindo acompanhar o fluxo de trabalho em tempo real, priorizar tarefas críticas e monitorar o desempenho da equipe.
+
+- Escopo
+
+O sistema inclui:
+
+CRUD de tarefas (criar, ler, atualizar e excluir tarefas)
+
+Gestão de progresso via quadro Kanban no GitHub Projects
+
+Controle de qualidade com GitHub Actions para testes automatizados
+
+Registro detalhado de alterações e histórico de commits
+
+- Metodologia
+
+Metodologia ágil Kanban, utilizando o GitHub Projects para:
+
+Organizar tarefas nas colunas A Fazer, Em Progresso e Concluído
+
+Acompanhar status em tempo real
+
+Priorizar tarefas críticas
+
+Flexibilidade para simular mudanças no escopo e ajustar o planejamento
+
+- Instruções para Executar o Sistema
+
+Clone o repositório:
+
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+
+Instale dependências:
+
+npm install
+
+
+Execute o sistema:
+
+npm start
