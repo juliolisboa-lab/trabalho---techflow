@@ -1,6 +1,8 @@
-name: Python Package using Conda
-
-on: [push]
+- name: Run tests
+  env:
+    PYTHONPATH: ./src   # <-- isso aponta para a pasta src na raiz
+  run: |
+    pytest
 
 jobs:
   build-linux:
