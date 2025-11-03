@@ -1,0 +1,7 @@
+# src/models/tarefa.py
+class Tarefa:
+    def __init__(self, id, nome, descricao, status="Pendente"):
+        self.id = id
+        self.nome = nome
+        self.descricao = descricao
+        self.status = status
