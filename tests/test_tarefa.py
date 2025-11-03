@@ -1,11 +1,4 @@
 # tests/test_tarefa.py
-
-import sys
-import os
-
-# Adiciona a pasta src ao path do Python para que os imports funcionem
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
-
 # Agora podemos importar os controllers
 from controllers.tarefa_controller import criar_tarefa, listar_tarefas, deletar_tarefa, editar_tarefa
 
