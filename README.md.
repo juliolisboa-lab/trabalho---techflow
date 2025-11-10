@@ -30,16 +30,4 @@ Flexibilidade para simular mudanças no escopo e ajustar o planejamento
 
 - Instruções para Executar o Sistema
 
-Clone o repositório:
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-
-
-Instale dependências:
-
-npm install
-
-
-Execute o sistema:
-
-npm start
